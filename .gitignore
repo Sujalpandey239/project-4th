@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# ML Models and Large Data
+models/
+embeddings/
+faiss_index/
+results/
+*.csv
+*.h5
+*.pt
+*.pth
+*.bin
+
+# Environment variables (API keys)
+.env
