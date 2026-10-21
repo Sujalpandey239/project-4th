@@ -1,0 +1,20 @@
+# Deep Learning & Vision
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+
+# Vector Search & Similarity
+faiss-cpu>=1.7.4
+
+# Data Processing & Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualization & Progress
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Interactive & Web Applications
+jupyter>=1.0.0
+ipykernel>=6.25.0
+streamlit>=1.28.0

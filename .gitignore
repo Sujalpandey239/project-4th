@@ -1,21 +1,48 @@
-# Virtual Environment
+# Python & Virtual Environments
 venv/
+.venv/
 env/
+ENV/
+*.venv
 
-# Python Cache
+# Byte-compiled / optimized files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
 
-# ML Models and Large Data
-models/
-embeddings/
-faiss_index/
-results/
-*.csv
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Machine Learning Data, Embeddings & Indices
+embeddings/*
+!embeddings/.gitkeep
+faiss_index/*
+!faiss_index/.gitkeep
+models/*
+!models/.gitkeep
+*.npy
+*.npz
+*.index
 *.h5
+*.hdf5
 *.pt
 *.pth
 *.bin
+*.onnx
 
-# Environment variables (API keys)
+# Datasets
+dataset/
+data/
+*.csv
+
+# Environment & Secrets
 .env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
